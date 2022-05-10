@@ -1,5 +1,4 @@
 #include <GL/glut.h>
-#include <windows.h>
 #include "YahooAPI.h"
 #include "constants.h"
 
