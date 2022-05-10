@@ -21,7 +21,7 @@
     - **libcurl:**  &nbsp; Follow the steps of [this stackoverflow post](https://stackoverflow.com/a/54680718/14928069)
 2. Good to Go!
 
-## Graphical UI
+## 🖥️ Graphical UI
 ![opengl_live_stock_market](./blob/graphical_ui.png)
 
 ## 📝 License
