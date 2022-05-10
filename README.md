@@ -22,7 +22,7 @@
 2. Good to Go!
 
 ## Graphical UI
-![opengl_live_stock_market](https://user-images.githubusercontent.com/56118625/167615612-7bc3c6d0-875a-4329-a582-ebde02ccbf7e.png)
+![opengl_live_stock_market](./blob/graphical_ui.png)
 
 ## 📝 License
 Licensed under the [MIT License](https://github.com/jayantkatia/opengl-live-stock-market/blob/master/LICENSE.md). 
