@@ -21,8 +21,11 @@
     - **libcurl:**  &nbsp; Follow the steps of [this stackoverflow post](https://stackoverflow.com/a/54680718/14928069)
 2. Good to Go!
 
+## Graphical UI
+![opengl_live_stock_market](https://user-images.githubusercontent.com/56118625/167615612-7bc3c6d0-875a-4329-a582-ebde02ccbf7e.png)
+
 ## 📝 License
-Licensed under the [MIT License](https://github.com/jayantkatia/opengl-live-stock-market//LICENSE). 
+Licensed under the [MIT License](https://github.com/jayantkatia/opengl-live-stock-market/blob/master/LICENSE.md). 
 
 ## ✨ Development and Contributing
 Yes, please! Feel free to contribute, raise issues and recommend best practices.
