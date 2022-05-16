@@ -45,7 +45,7 @@ struct YahooAPIMonthData {
 
 class YahooAPI
 {	
-	string _apiKey="GsG6aFHvAp7k7t8C3BQ5a73rxsrwU9P52zKvUdVa";
+	string _apiKey="IVSwwCN6Lj4qaAFC2uL2M5SGIZfV0WRq2WbSDlW2";
 	string performRequest(string url);
 public:
     YahooAPIMonthData getMonthData(string requestSymbol, string symbol);

@@ -147,7 +147,6 @@
     <ClCompile Include="YahooAPI.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\json.hpp" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="picojson.h" />
     <ClInclude Include="YahooAPI.h" />

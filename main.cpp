@@ -77,7 +77,7 @@ void display(void) {
 
     glBegin(GL_LINES);
     if(normalizedValues.size() > 0) glVertex2d(x, normalizedValues[0]);
-    for (int i = 1; i<normalizedValues.size(); i++) {
+    for (unsigned int i = 1; i<normalizedValues.size(); i++) {
         glVertex2d(x, normalizedValues[i]);
         glVertex2d(x, normalizedValues[i]);
         x += interval;
