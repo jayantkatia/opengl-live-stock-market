@@ -30,7 +30,16 @@ void menu(int num) {
     glutPostRedisplay();
 }
 
+void keypress(unsigned char keypressed, int _, int __) {
+    if (keypressed == 'r' || keypressed == 'R') {
+
+        glutPostRedisplay();
+    }
+}
+
 void createMenu(void) {
+    glutKeyboardFunc(keypress);
+
     int submenu_id = glutCreateMenu(menu);
     for (int i = 0; i < constants::numStocks; i++) {
         glutAddMenuEntry(constants:: stockDisplayNames[i].c_str(), i);

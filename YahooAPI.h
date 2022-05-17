@@ -27,7 +27,8 @@ struct YahooAPIMonthData {
 	vector<double> close;
 	vector<unsigned int> timestamp;
     bool isProfit;
-
+    
+    YahooAPIMonthData() {};
 	YahooAPIMonthData(string symbol, string json) {
         picojson::value v;
         string err = picojson::parse(v, json);
