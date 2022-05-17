@@ -9,7 +9,7 @@ using namespace std;
 
 // deserialize an array
 template<typename T>
-vector<T> fromJson(T type, const picojson::value& input) {
+vector<T> fromJson(const picojson::value& input) {
     vector<T> values;
     if (input.is<picojson::array>())
     {
@@ -36,8 +36,8 @@ struct YahooAPIMonthData {
         }
         v = v.get(symbol);
 
-        this->timestamp = fromJson(unsigned int(), v.get("timestamp"));
-        this->close = fromJson(double(), v.get("close"));
+        this->timestamp = fromJson<unsigned int>(v.get("timestamp"));
+        this->close = fromJson<double>(v.get("close"));
         if (close.size() > 0)
             isProfit = close[close.size() - 1] > close[0] ? true : false;
 	}
